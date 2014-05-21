@@ -101,8 +101,6 @@ footer {
   }
 }
 
-@import "bootstrap";
-
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
@@ -249,4 +247,34 @@ aside {
   .gravatar {
     margin: 1px 1px;
   }
+}
+
+/* Hooha Adjustments */
+
+.btn{
+  
+  border-radius: 0px;
+}
+
+.navbar {
+  .navbar-inner {
+    background-color: #3498DB;
+    background-image: none;
+    border-color:transparent;
+  }
+}
+
+.navbar-inverse .nav .active > a {
+  color: white !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+.navbar-inverse .nav > li > a {
+  color: white !important;
+  text-shadow: none !important;
+}
+
+.navbar-inverse .nav > li > a:hover {
+  color: white3 !important;
 }
