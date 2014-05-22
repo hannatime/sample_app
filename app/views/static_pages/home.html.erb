@@ -27,5 +27,17 @@
     <%= link_to "Sign up now!", signup_path,
                                 class: "btn btn-large btn-warning" %>
   </div>
-
+  <div id="services">
+      </div>
+      <div class="container"> 
+      <div class="row center">
+                <div class='step_container'> <!-- services target-->
+                <h1>A little bit about Hooha.</h1>
+                <h3>Watch a short video about where we're going with Hooha.</h3>
+            </div><!-- /services target-->
+                  <div class='center'>
+                  <%= video_tag "www.hooha.com.mp4", :width => "100%", :controls => true %>
+                  </div>
+        </div><!-- /row -->
+    </div><!-- /container -->
 <% end %>
